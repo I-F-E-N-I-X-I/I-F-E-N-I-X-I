@@ -4,6 +4,16 @@
 
 В портфолио — проекты с исходным кодом, инструкциями запуска и проверяемыми результатами.
 
+## Java / JavaScript-проект — СТЫК
+
+**Маркетплейс с кабинетами покупателя, продавца, склада и администратора.**
+
+Каталог, корзина, избранное, заказы, модерация, резервирование и складские переходы. Автопополнение учитывает продажи и товары в пути; приёмка фиксирует расхождения. SQL-блокировки защищают последний экземпляр от одновременной покупки. Оплата и доставка демонстрационные.
+
+Стек: Java 21, Spring Boot, Spring Security, JPA/Hibernate, PostgreSQL, Flyway, React, JavaScript, Docker Compose. Интеграционные проверки выполняются на H2 и PostgreSQL в GitHub Actions.
+
+[Исходники и запуск](https://github.com/I-F-E-N-I-X-I/styk-marketplace) · [Архитектура](https://github.com/I-F-E-N-I-X-I/styk-marketplace/blob/main/docs/ARCHITECTURE.md) · [REST API](https://github.com/I-F-E-N-I-X-I/styk-marketplace/blob/main/docs/API.md) · [Проверки](https://github.com/I-F-E-N-I-X-I/styk-marketplace/actions)
+
 ## Java-проект — SupportFlow
 
 **Система обработки обращений клиентов с отдельным сервисом уведомлений.**
