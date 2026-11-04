@@ -14,7 +14,7 @@
 
 [Репозиторий и запуск](https://github.com/I-F-E-N-I-X-I/supportflow/tree/feature/supportflow) · [Архитектура](https://github.com/I-F-E-N-I-X-I/supportflow/blob/feature/supportflow/docs/ARCHITECTURE.md) · [Карта технологий и учебных примеров](https://github.com/I-F-E-N-I-X-I/supportflow/blob/feature/supportflow/docs/REQUIREMENTS.md) · [CI](https://github.com/I-F-E-N-I-X-I/supportflow/actions)
 
-Учебный проект подготовлен с помощью AI-ассистента. В отдельном модуле — проверяемые упражнения по Java, коллекциям, алгоритмам и многопоточности. [Процесс разработки](https://github.com/I-F-E-N-I-X-I/supportflow/blob/feature/supportflow/docs/DEVELOPMENT.md).
+В отдельном модуле — проверяемые упражнения по Java, коллекциям, алгоритмам и многопоточности.
 
 ## Java-проект — ReserveHub
 
@@ -25,8 +25,6 @@
 [Репозиторий и запуск](https://github.com/I-F-E-N-I-X-I/reservehub) · [REST API](https://github.com/I-F-E-N-I-X-I/reservehub/blob/main/docs/API.md) · [Архитектура](https://github.com/I-F-E-N-I-X-I/reservehub/blob/main/docs/ARCHITECTURE.md) · [Тесты и CI](https://github.com/I-F-E-N-I-X-I/reservehub/actions)
 
 Стек проекта: Java 21, Spring Boot, Spring Security, Spring JDBC, SQL, PostgreSQL, Flyway, JUnit 5, Docker. Автоматические проверки покрывают бизнес-правила, безопасность, транзакции и конкурентный доступ.
-
-Проект подготовлен с помощью AI-ассистента для самостоятельного изучения и дальнейшего развития. [Процесс разработки и план практики](https://github.com/I-F-E-N-I-X-I/reservehub/blob/main/docs/DEVELOPMENT.md).
 
 ## Навыки и направления изучения
 
@@ -58,5 +56,3 @@
 - Сетевое взаимодействие и воспроизводимые сценарии проверки API.
 - Разделение логики приложения и интерфейса.
 - Более глубокая автоматизация тестирования и работа с CI.
-
-Проект выполнен в учебном контексте. О процессе разработки и использовании инструментов — [в документации проекта](https://github.com/I-F-E-N-I-X-I/otklik/blob/main/docs/DEVELOPMENT.md).
