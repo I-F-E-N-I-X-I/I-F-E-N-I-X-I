@@ -4,6 +4,18 @@
 
 В портфолио — проекты с исходным кодом, инструкциями запуска и проверяемыми результатами.
 
+## Java-проект — SupportFlow
+
+**Система обработки обращений клиентов с отдельным сервисом уведомлений.**
+
+Роли CLIENT/SUPPORT/ADMIN, назначение сотрудников, статусы, комментарии, история, поиск и статистика. События доставляются через transactional outbox и RabbitMQ; Redis кэширует справочник, а уведомления хранятся в отдельной базе.
+
+Стек: Java 21, Spring Boot, JPA/Hibernate, PostgreSQL, JWT, RabbitMQ, Redis, Flyway, Gradle, Docker Compose. Проверки: JUnit 5, Mockito, MockMvc, Testcontainers и сценарии отказов зависимостей в GitHub Actions.
+
+[Репозиторий и запуск](https://github.com/I-F-E-N-I-X-I/supportflow/tree/feature/supportflow) · [Архитектура](https://github.com/I-F-E-N-I-X-I/supportflow/blob/feature/supportflow/docs/ARCHITECTURE.md) · [Карта технологий и учебных примеров](https://github.com/I-F-E-N-I-X-I/supportflow/blob/feature/supportflow/docs/REQUIREMENTS.md) · [CI](https://github.com/I-F-E-N-I-X-I/supportflow/actions)
+
+Учебный проект подготовлен с помощью AI-ассистента. В отдельном модуле — проверяемые упражнения по Java, коллекциям, алгоритмам и многопоточности. [Процесс разработки](https://github.com/I-F-E-N-I-X-I/supportflow/blob/feature/supportflow/docs/DEVELOPMENT.md).
+
 ## Java-проект — ReserveHub
 
 **Backend для бронирования и выдачи оборудования на Java и Spring Boot.**
