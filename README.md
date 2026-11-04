@@ -56,3 +56,11 @@
 - Сетевое взаимодействие и воспроизводимые сценарии проверки API.
 - Разделение логики приложения и интерфейса.
 - Более глубокая автоматизация тестирования и работа с CI.
+
+## Инфраструктурный проект — InferenceOps Lab
+
+Учебный стенд автоматизации доставки inference-сервиса: Python/FastAPI, Docker, Kubernetes, Jenkins Pipeline и GitHub Actions. Две реплики, проверки готовности, ограничения ресурсов, метрики Prometheus, скрипты диагностики и автоматический откат неудачного обновления.
+
+[Код и запуск](https://github.com/I-F-E-N-I-X-I/inferenceops-lab) · [CI](https://github.com/I-F-E-N-I-X-I/inferenceops-lab/actions) · [Jenkins](https://github.com/I-F-E-N-I-X-I/inferenceops-lab/blob/main/docs/JENKINS.md) · [Инструкция эксплуатации](https://github.com/I-F-E-N-I-X-I/inferenceops-lab/blob/main/docs/RUNBOOK.md)
+
+Сервис использует простой CPU-классификатор для воспроизводимой практики инфраструктуры. Это учебный стенд, подготовленный с AI-ассистентом; реальная LLM, GPU-кластер и эксплуатация Jenkins в production не заявляются.
